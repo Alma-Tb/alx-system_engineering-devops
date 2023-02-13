@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./* -type d -mindepth 1 | wc -l
+ls -alR | grep ^d | wc -l 
